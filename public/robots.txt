@@ -1,0 +1,5 @@
+# Flowaccel — https://flow-accel.com
+User-agent: *
+Allow: /
+
+Sitemap: https://flow-accel.com/sitemap.xml
