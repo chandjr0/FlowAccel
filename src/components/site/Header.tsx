@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, useId, useRef, useState } from "react";
-import { ChevronDown, Menu, Search, X } from "lucide-react";
+import { ChevronDown, Menu, X } from "lucide-react";
 import { Logo } from "./Logo";
 
 export function Header() {
@@ -57,13 +57,6 @@ export function Header() {
               { to: "/privacy-policy", label: "Privacy Policy" },
             ]}
           />
-          <button
-            type="button"
-            className="ml-2 p-2.5 rounded-md hover:bg-muted transition-colors focus-ring"
-            aria-label="Search"
-          >
-            <Search className="h-4 w-4" aria-hidden />
-          </button>
           <Link
             to="/contact"
             className="btn-primary ml-3 inline-flex items-center rounded-md bg-primary px-4 py-2.5 min-h-11 font-medium text-primary-foreground"
